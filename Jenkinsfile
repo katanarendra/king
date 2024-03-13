@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage ('making commit') {
           steps {
-              echo "${CHANGE_ID}"
+              echo "${CHANGE_URL}"
           }
       }
   }
