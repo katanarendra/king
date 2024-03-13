@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage ('making commit') {
           steps {
-              echo "${CHANGE_TITLE}"
+              echo "${CHANGE_AUTHOR}"
           }
       }
   }
