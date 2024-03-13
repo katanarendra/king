@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage ('making commit') {
           steps {
-              echo "${BRANCH_NAME}"
+              echo "${BRANCH_IS_PRIMARY}"
           }
       }
   }
