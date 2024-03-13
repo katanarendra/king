@@ -7,6 +7,7 @@ pipeline {
               echo "${GIT_PREVIOUS_COMMIT}"
               echo "${GIT_BRANCH}"
               echo "${GIT_URL}"
+              echo "${GIT_LOCAL_BRANCH}"
           }
       }
   }
