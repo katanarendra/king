@@ -8,7 +8,7 @@ pipeline {
               echo "${GIT_BRANCH}"
               echo "${GIT_URL}"
               echo "${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
-              echo "${BRANCH_NAME}"
+              echo "${BRANCH_IS_PRIMARY}"
           }
       }
   }
