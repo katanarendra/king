@@ -1,10 +1,9 @@
 pipeline {
   agent any
-  stages {
-      stage ('making commit') {
-          steps {
-              echo "${CHANGE_AUTHOR}"
-          }
-      }
+  environment {
+    num1 = 8
+    string = "test"
   }
-}
+  stages {
+    stage('stage1') {
+      steps { git credentialsId: 'test',url: 
